@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>product</title>
+	<link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="font1/iconfont.css">
+    <link rel="stylesheet" href="font2/iconfont.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+	<script>
+        window.onload = window.onresize = function(){
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+            var _html = document.getElementsByTagName('html')[0];
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+        }
+    </script>
+</head>
+<body>
+	<div class="content">
+        <div class="cont_tp">
+            <span class="iconfont icon-left-arrow"></span>
+             <span class="iconfont icon-gouwuche"></span>
+        </div>
+        <div class="cont_tp1">
+             <p class="tp1">Woman,Dress</p>
+             <div class="tp2 fl"><p>ADD TO WISHLIST</p></div>
+             <div class="tp3 fl"><p>ADD TO CART</p></div>
+        </div>
+        <div class="cont_bt gWidth">
+            <img src="img/woman.jpg"  alt="">
+            <p>Elegant Pink Dresses</p>
+            <div class="kuai fl">$605,00</div>
+        </div>
+        <div class="des">
+            <span class="iconfont icon-jiahao"></span>
+            <p>Description</p>
+        </div>
+        <div class="col">
+        <span class="iconfont icon-iconset0493"></span>
+        <p class="colp1">Colour:</p><br/>
+        <p class="colp2">Choose a colour for item</p>
+        <ul class="ul1">
+             <li class="li1"><span class="iconfont icon-selected"></span></li>
+             <li class="li2"></li>
+             <li class="li3"></li>
+         </ul> 
+         <div class="hr"></div>
+        <span class="iconfont icon-yijia"></span>
+        <p class="colp1">Size:</p><br/>
+        <p class="colp2">Size avalilble for this item</p>
+        <ul class="ul2">
+            <li>6</li>
+            <li class="li4">8</li>
+            <li>10</li>
+            <li>12</li>
+            <li>14</li>
+        </ul>
+        </div>
+        <div class="add">
+            <p>Add to Cart</p>
+        </div>
+        <div class="sha">
+            <p>SHARE ON</p>
+            <div class="hr1"></div>
+        </div>
+        <div class="niao">
+            <ul>
+                <li class="n_1"><span class="iconfont icon-bird-xiaoniao"></span></li>
+                <li class="n_2"><span class="iconfont icon-f"></span></li>
+                <li class="n_3"><span class="iconfont icon-p"></span></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
