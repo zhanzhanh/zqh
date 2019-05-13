@@ -1,0 +1,217 @@
+@charset "utf-8";
+@media (min-width:992px) {
+.hv{
+	height: 54px;
+	padding: 0 5%;
+	position: relative;
+}
+.header{
+	max-width: 1600px;
+	height: 100%;
+}
+.menu,.login,.search,.shopimg{
+	display: none;
+}
+.banner{
+	width: auto;
+	padding: 0 5%;
+}
+.banner img:nth-child(1){
+	display: none;
+}
+.banner img:nth-child(2){
+	display: block;
+}
+.logo{
+	float: left;
+	width: 137px;
+	height: 57px;
+	text-align: center;
+	position: static;
+	margin: 0;
+	padding: 0;
+	left: 0;
+    transform: translate3d(0,0,0);
+    position: relative;
+}
+.logo img{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translate3d(0,-50%,0);
+	width: 108px;
+}
+nav{
+	float: left;
+	height: 100%;
+	display: flex;
+	box-flex: 1;
+}
+.curm_menu{
+	height: 49px;
+	overflow: hidden;
+}
+.curm_menu li{
+	float: left;
+	width: auto;
+    padding: 16px 8px 10px;
+}
+.curm_menu li a{
+	border: 1px solid transparent;
+    color: #262626;
+    display: block;
+    margin-top: 1px;
+    position: relative;
+}
+.curm_menu li a::before{
+	content: "";
+	width: 100%;
+	height: 2px;
+	background: #000;
+	position: absolute;
+	display: none;
+	bottom: -2px;
+	left: 0;
+	transition: .35s;
+}
+.curm_menu li a:hover:before{
+	display: block;
+}
+
+.cu_searc{
+	float: right;
+	display: flex;
+	flex: 1;
+	justify-content: flex-end;
+	height: 100%;
+}
+.scur{
+	float: left;
+	width: auto;
+	margin-right: 15px;
+	padding: 16px 5px 16px 15px;
+}
+.scur a{
+	display: inline-block;
+	white-space: nowrap;
+	color: #262626;
+	position: relative;
+}
+.scur span{
+	display: inline-block;
+	margin-left: 5px;
+}
+.scur a::before{
+	content: "";
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	display: none;
+	background-color: #000;
+}
+.scur a:hover:before{
+	display: block;
+}
+.scur a span{
+	font-weight: 900;
+}
+.serc_f{
+	float: left;
+	height: auto;
+	margin-right: 17px;
+	padding: 13px 5px 16px 15px;
+}
+.serc_f a{
+	display: inline-block;
+	color: #262626;
+	position: relative;
+}
+.serc_f i{
+	display: inline-block;
+	font-size: 20px;
+	margin-left: 5px;
+	vertical-align: bottom;
+}
+.serc_f a:before{
+	content: "";
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	display: none;
+	background-color: #000;
+}
+.serc_f a:hover:before{
+	display: block;
+}
+.shop_f{
+	float: left;
+	height: auto;
+	margin-right: 17px;
+	padding: 13px 5px 16px 15px;
+}
+.shop_f a{
+	display: inline-block;
+	color: #262626;
+	position: relative;
+}
+.shop_f i{
+	display: inline-block;
+	font-size: 20px;
+	margin-left: 5px;
+	vertical-align: bottom;
+}
+.shop_f a:before{
+	content: "";
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	display: none;
+	background-color: #000;
+}
+.shop_f a:hover:before{
+	display: block;
+}
+.login_pc{
+	width: 100px;
+	height: 48px;
+	float: left;
+	display: block;
+}
+.login_pc a{
+	color: #262626;
+	line-height: 50px;
+	margin-right: 12px;
+}
+.banner_text{
+	display: none;
+}
+.content_w li{
+	float: left;
+	width: 25%;
+	box-sizing: border-box;
+}
+.ban_m{
+	width: auto;
+	padding: 0 5%;
+}
+.links{
+	width: auto;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.row,.cow{
+	width: 50%;
+	float: left;
+}
+
+
+
+
+
+}

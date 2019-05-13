@@ -1,0 +1,52 @@
+@charset "utf-8";
+@media (min-width:768px) {
+
+.banner img:nth-child(2){
+	display: none;
+}
+nav{
+	display: none;
+}
+.cu_searc{
+	display: none;
+}
+.banner_text{
+	display: none;
+}
+.content_w li{
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+}
+.foot_nav{
+	width: 33.3333%;
+	display: block;
+	float: left;
+}
+.row,.cow{
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
